@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f537ac32476cd6102c5beb0f316d4313" label="Utkarsh" max_length="40" name="x_1534298_utkarsh_utkarsh" type="collection">
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
